@@ -1,0 +1,1 @@
+SELECT * FROM l1_landing.bids
