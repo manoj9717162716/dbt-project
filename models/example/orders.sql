@@ -1,0 +1,1 @@
+SELECT * FROM l3_consumption.orders_target
