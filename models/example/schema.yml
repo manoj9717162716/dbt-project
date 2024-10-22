@@ -32,7 +32,7 @@ models:
     - name: order_list
       description: "List of all orders"
       columns:
-          - name: order_id
+          - name: order_no
             description: "The columns showint the target of sales store"
             tests:
                 - unique
