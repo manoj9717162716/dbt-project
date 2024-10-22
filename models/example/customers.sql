@@ -1,0 +1,1 @@
+select * from l1_landing.customers
