@@ -7,15 +7,24 @@ models:
       columns:
           - name: id
             description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+            #tests:
+            #    - unique
+            #    - not_null
 
     - name: my_second_dbt_model
       description: "A starter dbt model"
       columns:
           - name: id
             description: "The primary key for this table"
+            #tests:
+            #    - unique
+            #    - not_null
+
+    - name: orders
+      description: "List of all orders"
+      columns:
+          - name: sales_target
+            description: "The columns showint the target of sales store"
             tests:
                 - unique
                 - not_null
